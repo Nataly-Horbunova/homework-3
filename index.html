@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Home work #3</h1>
+        <form>
+            <fieldset>
+                <legend>Укажите ваши данные</legend>
+                <div class="input">
+                    <label for="name">Ваше имя:</label>
+                    <input id="name" type="text" placeholder="Введите своё имя" required>
+                </div>
+                <div class="input">
+                    <label for="surname">Ваша фамилия:</label>
+                    <input id="surname" type="text" placeholder="Введите свою фамилию" required>
+                </div>
+                <div class="input">
+                    <label for="email">Электронная почта:</label>
+                    <input id="email" type="email" placeholder="Ввведите свою почту" required
+                        title="Введите почту в формате mail@domain.com">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Данные про ваш курс</legend>
+                <div class="input">
+                    <label>Выберите ваш курс:
+                        <select>
+                            <option value="1" selected disabled>Выберите из списка</option>
+                            <option value="2">Front-End Basic</option>
+                            <option value="3">Front-End Pro</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="input">
+                    <span>Выполняете ли вы домашние задания:</span>
+                    <br>
+                    <label>
+                        <input type="radio" name="add-info" value="yes">
+                        <span>Да, выполняю</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="add-info" value="no">
+                        <span>Нет, не выполняю</span>
+                    </label>
+                </div>
+                <div class="input">
+                    <span>Дополнительная информация:</span>
+                    <br>
+                    <label>
+                        <input type="checkbox" value="education">
+                        <span>Буду продолжать обучение</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" value="english">
+                        <span>Дополнительно занимаюсь английским</span>
+                    </label>
+                </div>
+            </fieldset>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+html {
+  font-family: "Pacifico", cursive;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3b3b3b;
+}
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
